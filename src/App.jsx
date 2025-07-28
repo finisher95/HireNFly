@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/next";
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
@@ -17,7 +18,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      {/* <ThemeToggle /> */}
+      <Analytics />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
