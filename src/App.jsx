@@ -1,8 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/NavBar';
-// import ThemeToggle from "./components/ThemeToggle";
-
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Services from "./pages/Services";
